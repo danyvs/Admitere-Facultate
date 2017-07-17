@@ -12,7 +12,7 @@ void sieveOfEratosthenes(bool prime[]) {
                 prime[j] = false;
 }
 
-*/ Observatii:
+/* Observatii:
 1. prime[i] = true, daca i este prim.
 2. prime[i] = false, daca i este compus.
 3. Ciurul lui Eratostene raspunde in O(1) la intrebarea daca un numar este prim sau nu.
