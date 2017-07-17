@@ -20,7 +20,7 @@ void atribHuge(int dest[], int src[]) {
 // 3. Compararea a 2 numere mari
 // - -1, daca vec1 < vec2
 // - 0, daca vec1 = vec2
-// = 1, daca vec1 > vec2
+// - 1, daca vec1 > vec2
 int comp(int vec1[], int vec2[]) {
     // se elimina zerourile nesemnificative
     while (vec1[0] && !vec1[vec1[0]])
