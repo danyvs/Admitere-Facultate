@@ -4,13 +4,17 @@ usoara. */
 
 // 1. Cel mai mare divizor comun prin scaderi repetate - Varianta ineficienta
 int gcd(int a, int b) {
+    if (a == 0)
+        return b;
+    if ( b == 0)
+        return a;
     while (a != b)
         if (a > b)
             a -= b;
         else
             b -= a;
     return a;
-} 
+}
 
 // 2. Cel mai mare divizor comun prin impartiri repetate - Iterativ - Varianta eficienta
 int gcd(int a, int b) {
