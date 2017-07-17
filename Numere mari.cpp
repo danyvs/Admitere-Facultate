@@ -39,3 +39,19 @@ int comp(int vec1[], int vec2[]) {
     }
     return 0;
 }
+
+// 4. Adunarea unui numar mare cu un scalar
+
+// 5. Adunarea a 2 numere mari
+
+// 6. Scaderea unui scalar dintr-un numar mare
+
+// 7. Scaderea a 2 numere mari
+
+// 8. Inmultirea unui numar mare cu un scalar
+
+// 9. Inmultirea a 2 numere mari
+
+// 10. Impartirea unui numar mare la un scalar
+
+// 11. Impartirea a 2 numere mari
