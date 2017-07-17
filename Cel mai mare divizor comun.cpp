@@ -1,5 +1,6 @@
 /* Cel mai mare divizor comun a 2 numere naturale (cmmdc sau gcd) se poate determina foarte usor cu Algoritmul lui Euclid. Acesta prezinta
-2 variante: prin scaderi repetate (ineficienta) si prin impartiri repetate (eficienta), cea din urma avand si o scriere recursiva foarte usoara. */
+2 variante: prin scaderi repetate (ineficienta) si prin impartiri repetate (eficienta), cea din urma avand si o scriere recursiva foarte 
+usoara. */
 
 // 1. Cel mai mare divizor comun prin scaderi repetate - Varianta ineficienta
 int gcd(int a, int b) {
