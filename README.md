@@ -1,1 +1,3 @@
-# Admitere-Facultate
+# AdmitereFacultate
+
+In acest repo voi pastra toti algoritmii necesari pentru examenul de admitere la facultate.
