@@ -30,7 +30,7 @@ bool binarySearch(int target, int vec[], int n) {
     return false;
 }
 
-*/ Observatii:
+/* Observatii:
 1. Ambele cautari pot fi modificate astfel incat sa nu caute in tot vectorul, ci doar intre anumiti indici.
 2. Ambele cautari pot fi modificate astfel incat sa returneze pozitia unde apare vectorul cautat.
 3. Cautarea binara poate fi modificata astfel incat sa returneze pozitia sau cel mai mare element mai mic decat target.
