@@ -1,4 +1,4 @@
-O multime se poate reprezenta cu ajutorul unui tablou unidimensional.
+// O multime se poate reprezenta cu ajutorul unui tablou unidimensional.
 
 // 1. Reuniunea a 2 multimi
 void reunion(int A[], int n, int B[], int m, int C[], int& p) {
