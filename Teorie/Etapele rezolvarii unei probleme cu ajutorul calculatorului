@@ -10,3 +10,17 @@ Proprietatile algoritmilor:
 1. eficienta - dintre toti algoritmii care rezolva o problema ne va interesa intotdeauna cel cu numar minim de pasi
 2. finititudinea - orice algoritm trebuie sa aiba un numar finit de pasi
 3. generalitatea - un algoritm va rezolva o clasa de probleme, nu doar o problema particulara
+
+
+Strucutura unui program C++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  // declarare date
+  // citire date
+  // calculare
+  // afisare
+  return 0;
+}
