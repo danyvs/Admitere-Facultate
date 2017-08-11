@@ -1,0 +1,45 @@
+1. Citirea datelor de intrare
+  cin >> nume_variabila;
+  cin >> nume_variabila1 >> nume_variabila2 >> ...;
+  
+2. Afisarea datelor de iesire
+  cout << expresie;
+  cout << expresie1 << expresie2 << ...;
+  
+3. Instructiunea de atribuire
+  nume_variabila = expresie;
+  Se evalueaza expresia din partea dreapta, iar rezultatul obtinut ii este atribuit variabilei din partea intreaga. Se foloseste cand
+vrem sa schimbam valoarea unei variabile.
+
+4. Instructiunea compusa
+    {
+      instructiune1;
+      instructiune2;
+      ...
+      instructiunen;
+    }
+  Instructiunra compusa grupeaza mai multe instructiuni in una singura. Se foloseste intr-un program atunci cand limbajul permite scrierea
+unei singure instructiuni, dar este nevoie sa se execute mai multe.
+
+5. Instructiunea if
+  Instructiunea if este o instructiune de decizie. Permite programului ca in functie de valoarea de adevar a unei conditii sa execute
+anumite instructiuni.
+    if (conditie)
+      instructiune1;
+    else 
+      instruciune2;
+- instructiune1 si instructiune2 pot fi orice instructiune C++, dar doar una singura
+- in cazul in care vrem sa se execute mai multe instructiuni, folosim instructiunea compusa
+    if (conditie) {
+      instructiune1;
+      ...
+      instructiunek;
+    }
+    else {
+      instructiunek+1;
+      ...
+      instructiunen;
+    }
+- ramura else poate lipsi
+    if (conditie)
+      instruciune;
