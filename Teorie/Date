@@ -45,3 +45,24 @@ e) lungime = numarul de octeti alocati
 3) Tipul logic (boolean)
     - bool - poate memora doar true sau false -> 1 octet
     
+  Operatori logici:
+1) negatia (!) - neaga valoarea de adevar
+  - !0 = 1
+  - !1 = 0
+2) operatorul si (&&)
+  - 0 && 0 = 0
+  - 0 && 1 = 0
+  - 1 && 0 = 0
+  - 1 && 1 = 1
+3) operatorul sau (||)
+  - 0 || 0 = 0
+  - 0 || 1 = 1
+  - 1 || 0 = 1
+  - 1 || 1 = 1
+- operatorii logici si cei relationali sunt folositi pentru scrierea conditiilor
+
+  Prioritatea operatorilor:
+1) prioritate maxima - operatorii aritmetici: *, /, %, +, -
+2) operatorii relationali: <, <=, >, >=, ==, !=
+3) priorotate minima - operatorii logici: !, &&, ||
+- daca intr-o expresie sunt mai multi operatori cu aceeasi prioritate, atunci acestia se evalueaza in ordine, de la stanga la dreapta
