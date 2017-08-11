@@ -1,0 +1,47 @@
+  Orice algoritm lucreaza cu date.
+  Acestea se pot clasifica:
+1) in functie de fluxul de informatie
+    - date de intrare
+    - date de iesire
+    - date intermediare (de lucru)
+2) in functie de tip    
+    - date intregi
+    - date reale
+    - caractere, siruri de caractere
+    - date de tip logic
+3) in functie de modul de compunere
+    - simple (memoreaza o singura valoare)
+    - compuse (pot memora mai multe valori)
+    
+  Orice data folosita intr-un program are urmatoarele caracteristici:
+a) identificator = numele asociat datei pentru a o putea identifica
+    - numele asociat unei date poate contine litere, cifire si talpa/ underline (_) si nu poate incepe cu o cifra
+    - se face distinctie intre literele mari si literele mici
+b) tip - specifica multimea de valori pe care le poate lua data respectiva si ce operatii se pot efectua cu aceasta
+c) valoare
+d) adresa de memorie
+e) lungime = numarul de octeti alocati
+  Orice data folosita intr-un program trebuie declarata printr-o instructiune de forma:
+    tip_data nume1, nume2, ...;
+    
+  Tipuri de date simple:
+1) Tipuri intregi:
+    - int [-2 miliarde ... 2 miliarde] -> 4 octeti
+    - long long - numere de maxim 18 cifre -> 8 octeti
+    Operatori:
+      a) aritmetici: +, -, *, /, %
+        intreg / intreg = catul impatirii
+        intreg / real = impartire exacta
+        real / intreg = impartire exacta
+        real / real = impartire exacta
+      b) relationali: <, <=, >, >=, ==, !=
+2) Tipuri reale:
+    - float - 6 zecimale exacte
+    - double - 10 zecimale exacte
+    - long double
+    Operatori:
+      a) aritmetici: +, -, *, /
+      b) relationali: ,, <=, >, >=, ==, !=
+3) Tipul logic (boolean)
+    - bool - poate memora doar true sau false -> 1 octet
+    
