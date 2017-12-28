@@ -13,7 +13,7 @@ void bkt(int k, int X[], int n, bool seen[]) {
 }
 
 /* Observatii:
-1. Pn = n!
+1. Numar solutii: Pn = n!
   Pentru n = 3 => permutarile, IN ORDINE LEXICOGRAFICA, sunt : 1 2 3
                                                                1 3 2
                                                                2 1 3
