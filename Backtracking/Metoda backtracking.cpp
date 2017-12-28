@@ -8,7 +8,7 @@
 care nu pot fi solutii finale.
 */
 
-// 1. Schema generala
+// Schema generala
 void bkt(int k, int X[], int a, int b) {
     for (int i = a; i <= b; ++ i) {
         X[k] = i;
