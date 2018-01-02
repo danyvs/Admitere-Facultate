@@ -1,0 +1,58 @@
+  Fie G = (V, E) un graf neorientat. Un LANT in graful G este o succesiune de noduri L = (x1, x2, ... xk) cu proprietatea ca oricare 2 noduri consecutive sunt adiacente.
+  Daca nodurile sunt distincte doua cate douam atunci lantul este elementar. In caz contrar, lantul este neelementar.
+  Lungimea unui lant este egala cu numarul de muchii parcurse.
+  
+  Se da graful:
+  5 6
+  1 2
+  1 3
+  1 5
+  2 3
+  3 4
+  4 5
+  
+  L = (5, 1, 3, 2) - lant elementar de lungime 3
+  L = (5, 1, 2, 3, 1) - lant neelementar de lugime 4
+  
+  
+  Fie G = (V, E) un graf neorientat. Un CICLU in graful G este o succesiune de noduri C = (x1, x2, ... xk), unde C este lant, x1 = xk si o muchie este parcursa maxim o data.
+  Lungimea uni ciclu al uni graf neorientat este minim 3.
+  
+  Se da graful:
+  5 6
+  1 2
+  1 3
+  2 3
+  3 4
+  3 5
+  4 5
+  
+  C = (1, 2, 3, 1) - ciclu elementar de lugime 3
+  C = (1, 2, 3, 4, 5, 3, 1) - ciclu neelementar de lungime 6
+  
+  
+  Graful neorientat G = (V, E) este CONEX, daca oricare 2 noduri ale sale sunt legate printr-un lant.
+  
+  Graf conex:
+  6 5
+  1 2
+  1 3
+  2 4
+  4 5
+  4 6
+  
+  Graf neconex:
+  5 2
+  1 2
+  3 4
+  
+  
+  Fie G = (V, E) un graf neorientat. O COMPONENTA CONEXA a grafului G este un subgraf conex al acestuia, maximal cu aceasta proprietate.
+  Daca graful G este conex, atunci acesta are o singura componenta conexa.
+  
+  Se da graful:
+  7 2
+  1 2
+  3 4
+  Acest graf are 5 componente conexe (un nod izolat formeaza o componenta conexa).
+  
