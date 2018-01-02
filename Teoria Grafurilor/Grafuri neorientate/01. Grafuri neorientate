@@ -1,5 +1,4 @@
-  Un GRAF NEORIENTAT este o pereche ordonata de multimi G = (V, E), unde V este o multime finita si nevida (multimea nodurilor/ varfurilor)
-si E este o multime de perechi neordonate de elemente ale multimii V (multimea muchiilor).
+  Un GRAF NEORIENTAT este o pereche ordonata de multimi G = (V, E), unde V este o multime finita si nevida (multimea nodurilor/ varfurilor) si E este o multime de perechi neordonate de elemente ale multimii V (multimea muchiilor).
   
   Nodurile grafului se reprezinta prin cercuri, iar muchiile prin linii.
   Vom nota |V| = n (numarul de noduri) si |E| = m (numarul de muchii)
@@ -8,8 +7,7 @@ si E este o multime de perechi neordonate de elemente ale multimii V (multimea m
             -> muchia u este incidenta cu nodul x si nodul y
             -> nodurile x si y sunt extremitatile muchiei u
 
-  Fie G = (V, E) un graf neorientat. GRADUL unui nod x ∈ V se noteaza cu d(x) si este egal cu numarul muchiilor incidente cu nodul x (sau
-numarul nodurilor adiacente cu nodul x)
+  Fie G = (V, E) un graf neorientat. GRADUL unui nod x ∈ V se noteaza cu d(x) si este egal cu numarul muchiilor incidente cu nodul x (sau numarul nodurilor adiacente cu nodul x)
   1) Daca d(x) = 0 => x este NOD IZOLAT
   2) Daca d(x) = 1 => x este NOD TERMINAL
   3) Gradul MAXIM al unui nod poate fi n - 1.
@@ -25,11 +23,9 @@ numarul nodurilor adiacente cu nodul x)
   Fie G = (V, E) un graf neorientat. Un SUBGRAF al grafului G este graful neorientat G' = (V', E'), unde V' ⊆ V, E' ⊆ E, iar E' contine 
 doar muchiile care au ambele extremitati in V' (este graful insusi sau graful obtinut prin eliminarea unuia sau a mai multor noduri si a
 muchiilor incidente cu acestea).
-  Pentru graful neorientat G = (V, E), se pot construi 2 ^ n - 1 subgrafuri distincte (2 grafuri sunt distincte daca difera prin cel putin
-o muchie).
+  Pentru graful neorientat G = (V, E), se pot construi 2 ^ n - 1 subgrafuri distincte (2 grafuri sunt distincte daca difera prin cel putin o muchie).
 
-  Fie G = (V, E) un graf neorientat. Un GRAF PARTIAL al lui G este graful G' = (V, E'), unde E' ⊆ E (este graful insusi sau graful obtinut
-prin eliminarea uneia sau a mai multor muchii).
+  Fie G = (V, E) un graf neorientat. Un GRAF PARTIAL al lui G este graful G' = (V, E'), unde E' ⊆ E (este graful insusi sau graful obtinut prin eliminarea uneia sau a mai multor muchii).
   Pentru un graf neorientat G = (V, E), se pot construi 2 ^ m grafuri partiale distincte.
   
   Reprezentarea in memorie a grafurilor neorientate
