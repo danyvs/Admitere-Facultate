@@ -1,0 +1,70 @@
+  1) Grafuri euleriene
+    Intr-un graf neorientat G = (V, E), un CICLU EULERIAN este un ciclu care contine toate muchiile grafului.
+    
+    Se da graful:
+      3 3
+      1 2
+      1 3
+      2 3
+    C = (1, 2, 3, 1) este un ciclu eulerian
+    
+    Un graf care contine un ciclu eulerian se numeste GRAF EULERIAN.
+    Un graf eulerian poate contine si noduri izolate.
+    
+    Se da graful:
+      7 6
+      1 2
+      1 3
+      2 3
+      3 4
+      3 5
+      4 5
+    Graful este eulerian (contine un ciclu eulerian C = (1, 2, 3, 5, 4, 3, 1))
+    
+    Un graf G = (V, E) care nu contine noduri izolate este eulerian, daca si numai daca este conex si gradele tuturor nodurilor sunt numere pare.
+    
+    
+  2) Grafuri hamiltoniene
+    Graful neorientat G = (V, E) este HAMILTONIANm daca contine cel putin un ciclu hamiltonian.
+    Un CICLU HAMILTONIAN este un ciclu care este elementar si care trece prin toate nodurile grafului.
+    
+    Se da graful:
+      6 10
+      1 2
+      1 6
+      2 3
+      2 5
+      2 6
+      3 4
+      3 5
+      3 6
+      4 5
+      5 6
+    Cicluri hamiltoniene:
+      C = (1, 2, 3, 4, 5, 6, 1)
+      C = (1, 2, 5, 4, 3, 6, 1)
+      C = (1, 6, 3, 4, 5, 2, 1)
+      
+    Daca graful G = (V, E) este un graf cu mai mult de 2 noduri (n >= 3) si gradul fiecarui nod x ∈ V satisface conditia d(x) >= n / 2, atunci graful G este HAMILTONIAN.
+    Teorema precizeaza numai conditia suficienta ca un graf sa fie hamiltonian. Aceasta conditie nu este insa si necesara.
+    
+    Verificarea daca un graf este hamiltonian se face cu ajutorul teoremei (daca d(x) >= n / 2, x ∈ V), in caz contrar se genereaza un ciclu hamiltonian (generare de permutari).
+    
+    
+    3) Graful bipartit
+      Graful neorientat G = (V, E) se numeste BIPARTITm daca exista 2 multimi nevide de noduri A si B, care au urmatoarele proprietati:
+        a) A ∪ B = V
+        b) A ∩ B = ∅
+        c) Orice muchie din multimea E are o extremitate in multimea de noduri A si o extremitate in multimea de noduri B.
+      Nodurile izolate poat face face din oricare dintre cele 2 multimi.
+      
+      Graful bipartit este GRAF BIPARTIT COMPLET, daca pentru oricare nod x ∈ V si oricare nod y ∈ B, exista o muchie formata din cele doua noduri care apartine multimii E.
+      
+      Se da graful:
+        4 4
+        1 3
+        1 4
+        2 3
+        2 4
+      A = {1, 2}
+      B = {3, 4}
