@@ -29,7 +29,7 @@ muchiilor incidente cu acestea).
   Pentru un graf neorientat G = (V, E), se pot construi 2 ^ m grafuri partiale distincte.
   
   Reprezentarea in memorie a grafurilor neorientate
-1) cu matrice de addiacenta
+1) cu matrice de adiacenta
     Anxn - matrice patratica de ordin n
     A[i][j] = 1, daca ∃ (i, j) ∈ E
               0, in caz contrar
