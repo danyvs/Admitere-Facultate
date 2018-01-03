@@ -1,0 +1,38 @@
+  Un GRAF ORIENTAT (DIGRAF) este o pereche ordonata de multimi G = (V, E), unde V este o multime finita si nevida (multimea nodurilor/ varfurilor) si E este o multime de perechi ordonate de elemente din V (multimea arcelor).
+  
+  x - u -> y  -> x si y sunt adiacente
+              -> arcul u este incident cu nodurile x si y
+              -> x este extremitatea initiala a arcului u
+              -> y este extremitatea finala a arcului u
+              -> nodurile xi si y sunt vecine
+              
+  GRADUL EXTERN al unui nod x ∈ V se noteaza cu d+(x) si este egal cu numarul arcelor ce au ca extremitate initiala nodul x.
+  GRADUL INTERN al unui nod x ∈ V se noteaza cu d-(x) si este egal cu numarul arcelor ce au ca extremitate finala nodul x.
+  
+  Observatii:
+    1) 0 <= d+(x) <= n - 1
+    2) 0 <= d-(x) <= n - 1
+    3) d+(x1) + d+(x2) + ... + d+(xn) = d-(x1) + d-(x2) + ... + d-(xn) = m
+    4) x este nod izolat <=> d+(x) + d-(x) = 0
+    5) x este nod terminal <=> d+(x) + d-(x) = 1
+    6) Se pot construi 4 ^ (n * (n - 1) / 2) = 2 ^ (n * (n - 1)) grafuri orientate cu n noduri.
+    7) Notiunile deGRAF PARTIAL si SUBGRAF sunt la fel ca la grafurile orientate.
+    8) Parcurgerile BFS si DFS sunt la fel ca la grafurile orientate.
+    
+  Se numeste DRUM al grafului orientat G = (V, E) o succesiune de noduri D = (x1, x2, ... xk) pentru care ∀ i ∈ 1, k-1 ∃ (xi, xi+ 1) ∈ E.
+  Lungimea drumului este egala cu numarul arcelor parcurse.
+  Drumul este elementar daca nodurile sunt distincte 2 cate 2 si neelementar in caz contrar.
+  
+  Se numeste CIRCUIT in graful orientat G = (V, E) o succesiune de noduri C = (x1, x2, ... xk), unde C este drum si x1 = xk.
+  
+  Reprezentarea grafurilor orientate:
+1) cu matrice de adiacenta
+    Anxn - matrice patratica de ordin n, binara, unde
+      A[i][j] = 1, daca ∃ (i, j) ∈ E
+                0, in caz contrar
+    Matricea nu mai este neaparat simetrica fata de diagonala principala.
+    Numarul de valori egale cu 1 din matricea de adiacenta este egal cu m (numarul de arce).
+    d+(x) = suma elementelor de pe linia x
+    d-(x) = suma elementelor de pe coloana x
+   
+2) cu liste de adiacenta   
