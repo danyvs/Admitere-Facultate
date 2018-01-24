@@ -93,7 +93,7 @@ int main() {
     int n, m;
     node* G[NMAX] = {};
     node* Gt[NMAX] = {};
-		read(n, m, G, Gt);
-		solve(n, G, Gt);
-		return 0;
+    read(n, m, G, Gt);
+    solve(n, G, Gt);
+    return 0;
 }
