@@ -1,0 +1,13 @@
+	Consideram un graf G = (V, E) si o functie f : E -> R+ care asociaza fiecarei muchii (arc) un numar real pozitiv (care poate avea semnificatia de cost, de distanta, de durata, de timp etc) numit in general COSTUL MUCHIEI.
+	Functia f se numeste functie cost.
+	Un graf G = (V, E) pentru care s-a definit o functie cost de numeste GRAF PONDERAT.
+		
+	Graful ponderat se mai numeste GRAF CU COSTURI.
+	Grafurile ponderate se folosesc in aplicatii in care trebuie determinata valoarea minima sau valoarea maxima a unei marimi asociate grafului, adica functiei cost.
+	Se defineste costul unui drum de la nodul x la nodul y ca fiind suma costurilor muchiilor (arcelor) care formeaza acel drum.
+	Matricea cea mai adecvata pentru reprezentarea uni graf ponderat este matrice costurilor, matrice patratica de ordin n, al carei elemenete Ai,j sunt deifnite  astfel incat sa puna in evidenta costul asociat fiecarei muchii. Exista 2 forme de reprezentare a matricei costuilor:
+		- matricea costurilor minime pentru a determina valoarea minima a functiei cost
+		- matricea costurilor maxime pentru a determina valoarea maxima a functie cost
+	A[i][j] = c, daca exista un arc (o muchie) intre nodurile i si j cu costul c > 0
+						0, daca i = j
+						±∞, daca nu exista muchie intre nodurile i si j (∞, pentru matricea costurilor minime; -∞, pentru matricea costurilor maxime)
