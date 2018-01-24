@@ -1,4 +1,4 @@
-	/*Graful orientat G = (V, E) este TARE CONEX, daca ∀ x, y ∈ V, exista drum de la x la y si de la y la x.
+/*Graful orientat G = (V, E) este TARE CONEX, daca ∀ x, y ∈ V, exista drum de la x la y si de la y la x.
 		
 	3 3
 	1 2
@@ -25,7 +25,7 @@
 
 using namespace std;
 
-const int NMAX = 15;
+const int NMAX = 105;
 
 struct node {
     int info;
