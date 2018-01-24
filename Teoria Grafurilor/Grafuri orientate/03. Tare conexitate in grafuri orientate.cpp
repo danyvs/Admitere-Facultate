@@ -14,11 +14,12 @@
 	4 5
 	5 6
 	6 4
-	Graful nu este tare conex, dar contine 3 componente tare conexe; {1, 2}, {3}, {4, 5, 6}.
+	Graful orientat nu este tare conex, dar contine 3 componente tare conexe; {1, 2}, {3}, {4, 5, 6}.
 */
 	
 
 // Algoritmul lui Kosaraju-Sharir
+// complexitate: O(n + m), daca graful este reprezentat prin liste de adiacenta
 	
 #include <iostream>
 
