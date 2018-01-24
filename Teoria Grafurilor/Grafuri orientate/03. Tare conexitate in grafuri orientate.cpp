@@ -1,5 +1,25 @@
+	/*Graful orientat G = (V, E) este TARE CONEX, daca ∀ x, y ∈ V, exista drum de la x la y si de la y la x.
+		
+	3 3
+	1 2
+	2 3
+	3 1
+	Graf orientat tare conex
+	
+	6 7
+	1 2
+	2 1
+	2 3
+	3 4
+	4 5
+	5 6
+	6 4
+	Graful nu este tare conex, dar contine 3 componente tare conexe; {1, 2}, {3}, {4, 5, 6}.
+*/
+	
 
-
+// Algoritmul lui Kosaraju-Sharir
+	
 #include <iostream>
 
 using namespace std;
