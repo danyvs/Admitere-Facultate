@@ -1,4 +1,4 @@
-  /* Algoritmul lui Roy-floyd determina drumurile de cost minim/ maxim intre oricare 2 noduri ale grafului, transformand matricea costurilor ascoata acestuia. */
+  /* Algoritmul lui Roy-Floyd determina drumurile de cost minim/ maxim intre oricare 2 noduri ale grafului, transformand matricea costurilor ascoata acestuia. */
   
 void royFloyd(int A[NMAX][NMAX], int n) {
     for (int k = 1; k <= n; ++ k)
