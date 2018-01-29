@@ -1,4 +1,5 @@
-  Un GRAF ORIENTAT (DIGRAF) este o pereche ordonata de multimi G = (V, E), unde V este o multime finita si nevida (multimea nodurilor/ varfurilor) si E este o multime de perechi ordonate de elemente din V (multimea arcelor).
+  Un GRAF ORIENTAT (DIGRAF) este o pereche ordonata de multimi G = (V, E), unde V este o multime finita si nevida (multimea nodurilor/ 
+varfurilor) si E este o multime de perechi ordonate de elemente din V (multimea arcelor).
   
   x - u -> y  -> x si y sunt adiacente
               -> arcul u este incident cu nodurile x si y
