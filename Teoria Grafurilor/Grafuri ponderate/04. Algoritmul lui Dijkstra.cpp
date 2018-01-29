@@ -1,4 +1,5 @@
-/* Algoritmul lui Dijkstra construieste drumurile cu costul minim care pornesc de la un nod oarecare (nod sursa) pana la fiecare nod din graf (noduri destinatie) */
+/* Algoritmul lui Dijkstra construieste drumurile cu costul minim care pornesc de la un nod oarecare (nod sursa) pana la fiecare nod 
+din graf (noduri destinatie) */
 
 #include <iostream>
 
