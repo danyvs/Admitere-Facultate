@@ -21,7 +21,8 @@
       4 5
     Graful este eulerian (contine un ciclu eulerian C = (1, 2, 3, 5, 4, 3, 1))
     
-    Un graf G = (V, E) care nu contine noduri izolate este eulerian, daca si numai daca este conex si gradele tuturor nodurilor sunt numere pare.
+    Un graf G = (V, E) care nu contine noduri izolate este eulerian, daca si numai daca este conex si gradele tuturor nodurilor sunt 
+  numere pare.
     
     
   2) Grafuri hamiltoniene
