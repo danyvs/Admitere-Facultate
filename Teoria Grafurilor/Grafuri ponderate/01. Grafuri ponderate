@@ -1,11 +1,15 @@
-	Consideram un graf G = (V, E) si o functie f : E -> R+ care asociaza fiecarei muchii (arc) un numar real pozitiv (care poate avea semnificatia de cost, de distanta, de durata, de timp etc) numit in general COSTUL MUCHIEI.
+	Consideram un graf G = (V, E) si o functie f : E -> R+ care asociaza fiecarei muchii (arc) un numar real pozitiv (care poate avea 
+semnificatia de cost, de distanta, de durata, de timp etc) numit in general COSTUL MUCHIEI.
 	Functia f se numeste functie cost.
 	Un graf G = (V, E) pentru care s-a definit o functie cost de numeste GRAF PONDERAT.
 		
 	Graful ponderat se mai numeste GRAF CU COSTURI.
-	Grafurile ponderate se folosesc in aplicatii in care trebuie determinata valoarea minima sau valoarea maxima a unei marimi asociate grafului, adica functiei cost.
+	Grafurile ponderate se folosesc in aplicatii in care trebuie determinata valoarea minima sau valoarea maxima a unei marimi asociate 
+grafului, adica functiei cost.
 	Se defineste costul unui drum de la nodul x la nodul y ca fiind suma costurilor muchiilor (arcelor) care formeaza acel drum.
-	Matricea cea mai adecvata pentru reprezentarea uni graf ponderat este matrice costurilor, matrice patratica de ordin n, al carei elemenete Ai,j sunt deifnite  astfel incat sa puna in evidenta costul asociat fiecarei muchii. Exista 2 forme de reprezentare a matricei costuilor:
+	Matricea cea mai adecvata pentru reprezentarea uni graf ponderat este matrice costurilor, matrice patratica de ordin n, al carei 
+elemenete Ai,j sunt deifnite  astfel incat sa puna in evidenta costul asociat fiecarei muchii. Exista 2 forme de reprezentare a matricei 
+costuilor:
 		- matricea costurilor minime pentru a determina valoarea minima a functiei cost
 		- matricea costurilor maxime pentru a determina valoarea maxima a functie cost
 	A[i][j] = c, daca exista un arc (o muchie) intre nodurile i si j cu costul c > 0
@@ -17,5 +21,6 @@
 		1) Algoritmul lui Roy-Floyd
 		2) Algoritmul lui Dijkstra
 	
-	Ambii algoritmi folosesc principiul enuntat prin Teorema lui Bellman: drumul optim (cu costul minim/ maxim) intre 2 noduri oarece i si j contine numai drumuri partiale optime care trec prin alte noduri ale grafului. Altfel spus, daca drumul optim dintre 2 noduri oarecare i si j trece printr-un nod k, atunci si drumurile de la i la k si de la k la j sunt optime. 
+	Ambii algoritmi folosesc principiul enuntat prin Teorema lui Bellman: drumul optim (cu costul minim/ maxim) intre 2 noduri oarece i si j 
+contine numai drumuri partiale optime care trec prin alte noduri ale grafului. Altfel spus, daca drumul optim dintre 2 noduri oarecare i si j trece printr-un nod k, atunci si drumurile de la i la k si de la k la j sunt optime. 
 	Cei 2 algoritmi difera prin modul in care se identifica nodurile intermediare k.
