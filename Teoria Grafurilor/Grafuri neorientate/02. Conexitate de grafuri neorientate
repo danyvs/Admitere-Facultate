@@ -1,4 +1,5 @@
-  Fie G = (V, E) un graf neorientat. Un LANT in graful G este o succesiune de noduri L = (x1, x2, ... xk) cu proprietatea ca oricare 2 noduri consecutive sunt adiacente.
+  Fie G = (V, E) un graf neorientat. Un LANT in graful G este o succesiune de noduri L = (x1, x2, ... xk) cu proprietatea ca oricare 2 
+noduri consecutive sunt adiacente.
   Daca nodurile sunt distincte doua cate douam atunci lantul este elementar. In caz contrar, lantul este neelementar.
   Lungimea unui lant este egala cu numarul de muchii parcurse.
   
@@ -15,7 +16,8 @@
   L = (5, 1, 2, 3, 1) - lant neelementar de lugime 4
   
   
-  Fie G = (V, E) un graf neorientat. Un CICLU in graful G este o succesiune de noduri C = (x1, x2, ... xk), unde C este lant, x1 = xk si o muchie este parcursa maxim o data.
+  Fie G = (V, E) un graf neorientat. Un CICLU in graful G este o succesiune de noduri C = (x1, x2, ... xk), unde C este lant, x1 = xk si
+o muchie este parcursa maxim o data.
   Lungimea uni ciclu al uni graf neorientat este minim 3.
   
   Se da graful:
