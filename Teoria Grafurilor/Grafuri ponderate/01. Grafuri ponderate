@@ -22,5 +22,6 @@ costuilor:
 		2) Algoritmul lui Dijkstra
 	
 	Ambii algoritmi folosesc principiul enuntat prin Teorema lui Bellman: drumul optim (cu costul minim/ maxim) intre 2 noduri oarece i si j 
-contine numai drumuri partiale optime care trec prin alte noduri ale grafului. Altfel spus, daca drumul optim dintre 2 noduri oarecare i si j trece printr-un nod k, atunci si drumurile de la i la k si de la k la j sunt optime. 
+contine numai drumuri partiale optime care trec prin alte noduri ale grafului. Altfel spus, daca drumul optim dintre 2 noduri oarecare i si
+j trece printr-un nod k, atunci si drumurile de la i la k si de la k la j sunt optime. 
 	Cei 2 algoritmi difera prin modul in care se identifica nodurile intermediare k.
