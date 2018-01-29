@@ -62,8 +62,8 @@ obtinut prin eliminarea uneia sau a mai multor muchii).
     
     void add(node* &first, int val) {
       node* p = new node;
-      p -> info = val;
-      p -> next = first;
+      p->info = val;
+      p->next = first;
       first = p;
     }
     
