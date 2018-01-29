@@ -45,10 +45,12 @@
       C = (1, 2, 5, 4, 3, 6, 1)
       C = (1, 6, 3, 4, 5, 2, 1)
       
-    Daca graful G = (V, E) este un graf cu mai mult de 2 noduri (n >= 3) si gradul fiecarui nod x ∈ V satisface conditia d(x) >= n / 2, atunci graful G este HAMILTONIAN.
+    Daca graful G = (V, E) este un graf cu mai mult de 2 noduri (n >= 3) si gradul fiecarui nod x ∈ V satisface conditia d(x) >= n / 2, 
+  atunci graful G este HAMILTONIAN.
     Teorema precizeaza numai conditia suficienta ca un graf sa fie hamiltonian. Aceasta conditie nu este insa si necesara.
     
-    Verificarea daca un graf este hamiltonian se face cu ajutorul teoremei (daca d(x) >= n / 2, x ∈ V), in caz contrar se genereaza un ciclu hamiltonian (generare de permutari).
+    Verificarea daca un graf este hamiltonian se face cu ajutorul teoremei (daca d(x) >= n / 2, x ∈ V), in caz contrar se genereaza un 
+  ciclu hamiltonian (generare de permutari).
     
     
     3) Graful bipartit
@@ -58,7 +60,8 @@
         c) Orice muchie din multimea E are o extremitate in multimea de noduri A si o extremitate in multimea de noduri B.
       Nodurile izolate poat face face din oricare dintre cele 2 multimi.
       
-      Graful bipartit este GRAF BIPARTIT COMPLET, daca pentru oricare nod x ∈ V si oricare nod y ∈ B, exista o muchie formata din cele doua noduri care apartine multimii E.
+      Graful bipartit este GRAF BIPARTIT COMPLET, daca pentru oricare nod x ∈ V si oricare nod y ∈ B, exista o muchie formata din cele 
+    doua noduri care apartine multimii E.
       
       Se da graful:
         4 4
