@@ -34,8 +34,8 @@ struct node {
 
 void add(node* &first, int val) {
     node* p = new node;
-    p -> info = val;
-    p -> next = first;
+    p->info = val;
+    p->next = first;
     first = p;
 }
 
@@ -51,9 +51,9 @@ void read(int& n, int& m, node* G[NMAX], node* Gt[NMAX]) {
 
 void dfs1(int currNode, node* G[NMAX], bool seen[NMAX], int stck[NMAX], int& dim) {
     seen[currNode] = true;
-    for (node* p = G[currNode]; p != NULL; p = p -> next)
-        if (!seen[p -> info])
-            dfs1(p -> info, G, seen, stck, dim);
+    for (node* p = G[currNode]; p != NULL; p = p->next)
+        if (!seen[p->info])
+            dfs1(p->info, G, seen, stck, dim);
     stck[++ dim] = currNode;
 }
 
@@ -61,9 +61,9 @@ void dfs2(int currNode, node* Gt[NMAX], bool seen[NMAX], int idx) {
     seen[currNode] = true;
     // prelucrare nodul currNode din componenta idx
     cout << currNode << " ";
-    for (node* p = Gt[currNode]; p != NULL; p = p -> next)
-        if (!seen[p -> info])
-            dfs2(p -> info, Gt, seen, idx);
+    for (node* p = Gt[currNode]; p != NULL; p = p->next)
+        if (!seen[p->info])
+            dfs2(p->info, Gt, seen, idx);
 }
 
 void solve(int n, node* G[NMAX], node* Gt[NMAX]) {
