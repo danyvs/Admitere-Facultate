@@ -37,11 +37,11 @@
         // prelucrare nod start
         while (idx <= dim) {
           int currNode = q[idx ++];
-          for (node* p = G[currNode]; p; p = p -> next) 
-            if (!seen[p -> info]) {
-              q[++ dim] = p -> info;
-              seen[p -> info] = true;
-              // prelucrare p -> info
+          for (node* p = G[currNode]; p; p = p->next) 
+            if (!seen[p->info]) {
+              q[++ dim] = p->info;
+              seen[p->info] = true;
+              // prelucrare p->info
             }
           }
         }
@@ -50,7 +50,8 @@
   2) DFS (Depth-first Search)
     - Se incepe parcurgerea dintr-un node de start
     - Seviziteaza primul vecin nevizitat, apoi primul vecin nevizitat al acestuia etc
-    - Daca un nod nu mai are vecini nevizitati, se intoarce si viziteaza urmatorul vecin nevizitat al nodurilor din care acesta a fost vizitat etc
+    - Daca un nod nu mai are vecini nevizitati, se intoarce si viziteaza urmatorul vecin nevizitat al nodurilor din care acesta a fost 
+  vizitat etc
     
     Utilizare:
       - determinarea conexitatii grafului si a componentelor conexe
@@ -76,8 +77,8 @@
       void dfs(node* G[NMAX], int currNode, bool seen[]) {
         // prelucrare currNode
         seen[currNode] = true;
-        for (node* p = G[currNode]; p; p = p -> next)
-          if (!seen[p -> info])
-            dfs(p -> info);
+        for (node* p = G[currNode]; p; p = p->next)
+          if (!seen[p->info])
+            dfs(p->info);
       }
   
