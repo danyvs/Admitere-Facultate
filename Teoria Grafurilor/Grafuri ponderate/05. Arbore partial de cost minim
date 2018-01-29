@@ -1,0 +1,29 @@
+  Se numeste ARBORE un graf neorientat conex si aciclic.
+  
+  5 4
+  1 2
+  1 3
+  1 4
+  2 5
+  G = (V, E) este arbore.
+  
+  Urmatoarele definitii sunt echivalente pentru un graf G cu n noduri si m muchii:
+    1) G este arbore
+    2) G este graf aciclic cu n - 1 muchii
+    3) G este graf conex cu n - 1 muchii
+    4) G este graf aciclic maximmal (daca s-ar mai adauga o muchie intre oricare 2 noduri, ar aparea un ciclu)
+    5) G este graf conex minimal (daca se suprima o muchie, graful obtinut nu mai este conex)
+    6) orice pereche de noduri este legata printr-un lant si numai unul
+    
+    Orice arbore cu n noduri are n - 1 muchii.
+    
+    Daca un graf partial al unui graf G este arbore, el se numeste ARBORE PARTIAL al grafului G.
+    Un graf G contine un arobre partial daca si numai daca este graf conex.
+    
+    Fie G = (V, E) graf ponderat. COSTUL grafului este egal cu suma costurilor muchiilor grafului.
+    Se numeste GRAF PARTIAL DE COST MINIM al unui graf G conex ponderat un graf partial care are costul minim.
+    Graful partial de cost minim al unui graf conex G cu functia de cost c este un ARBORe PARTIAL DE COST MINIM.
+    
+    Pentru determinarea arborelui partial de cost minim se folosesc urmatorii algoritmi, care utilizeaza metoda Greedy:
+      1) Algoritmul lui Kruskal
+      2) Algoritmul lui Prim
