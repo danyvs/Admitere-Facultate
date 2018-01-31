@@ -53,5 +53,5 @@ ex: 1011010(2) = 90(10)
   
   
   Conversia unui numar natural din baza p1 in baza p2
-  x(p1) -> y(10) -> z(p2)
+    x(p1) -> y(10) -> z(p2)
 ex: 153(6) = 69(10) = 2120(3)
