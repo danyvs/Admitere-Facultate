@@ -1,0 +1,6 @@
+Sirul lui Fibonacci este 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+
+Recurenta:
+  f1 = 1
+  f2 = 1
+  fn = fn-2 + fn-1, ∀ n > 2
