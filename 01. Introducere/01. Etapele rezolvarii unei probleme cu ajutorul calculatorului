@@ -1,15 +1,14 @@
-Etapele rezolvarii unei probleme cu ajutorul calculatorului
-
-Etapa 1: Identificarea datelor de intrare si a datelor de iesire.
-Etapa 2: Determinarea algoritmului de rezolvare a problemei (algoritm = pasii ce trebuie parcursi pentru a rezolva o problema)
-Etapa 3: Transcrierea algoritmului intr-un limbaj de programare.
-Etapa 4: Testarea programului.
+Etapele rezolvarii unei probleme cu ajutorul calculatorului:
+  Etapa 1: Identificarea datelor de intrare si a datelor de iesire.
+  Etapa 2: Determinarea algoritmului de rezolvare a problemei (algoritm = pasii ce trebuie parcursi pentru a rezolva o problema)
+  Etapa 3: Transcrierea algoritmului intr-un limbaj de programare.
+  Etapa 4: Testarea programului.
 
 
 Proprietatile algoritmilor:
-1. eficienta - dintre toti algoritmii care rezolva o problema ne va interesa intotdeauna cel cu numar minim de pasi
-2. finititudinea - orice algoritm trebuie sa aiba un numar finit de pasi
-3. generalitatea - un algoritm va rezolva o clasa de probleme, nu doar o problema particulara
+  1. eficienta - dintre toti algoritmii care rezolva o problema ne va interesa intotdeauna cel cu numar minim de pasi
+  2. finititudinea - orice algoritm trebuie sa aiba un numar finit de pasi
+  3. generalitatea - un algoritm va rezolva o clasa de probleme, nu doar o problema particulara
 
 
 Strucutura unui program C++
