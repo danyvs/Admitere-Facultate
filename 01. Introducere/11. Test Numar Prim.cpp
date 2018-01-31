@@ -20,7 +20,8 @@ bool prime(int x) {
     return true;
 }
 
-// 3. Eficient: se trateaza separat cazul x = 2 si apoi se verifica daca x este divizibil cu orice numar impar din intervalul [2; sqrt(x)]
+/* 3. Eficient: se trateaza separat cazul x = 2 si apoi se verifica daca x este divizibil cu orice numar impar din intervalul
+[2; sqrt(x)]*/
 bool prime(int x) {
     if (x < 2)
         return false;
@@ -35,5 +36,6 @@ bool prime(int x) {
 }
 
 /* Observatii:
-1. O metoda mult mai eficienta pentru testarea proprietatii de numar prim pentru mai multe numere este cu ajutorul Ciurului lui Eratostene.
+1. O metoda mult mai eficienta pentru testarea proprietatii de numar prim pentru mai multe numere este cu ajutorul Ciurului lui 
+Eratostene.
 */
