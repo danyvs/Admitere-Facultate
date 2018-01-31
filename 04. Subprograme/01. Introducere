@@ -8,3 +8,4 @@ intermediul acestuia.
               ex: suma cifrelor unui numar, daca x este numar prim
           - procedurale (returneaza una sau mai multe valori, prin intermediul parametrilor transmisi prin referinta, eventual nicio 
           valoare)
+              ex: citirea elementelor unui vector, sortarea elementelor unui vector
