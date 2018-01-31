@@ -28,8 +28,8 @@ void primeFactors(int x) {
 }
 
 /* Observatii:
-1. Pe baza descompunerii in factori primi se poate determina numarul divizorilor duma urmatoarea formula: numarul de divizori = 
+1. Pe baza descompunerii in factori primi se poate determina numarul divizorilor duma urmatoarea formula: NUMARUL DIVIZORILOR = 
 (p1 + 1) * (p2 + 1) * ... * (pk + 1)
-2. Pe baza descompunerii in factori primi se poate determina suma divizorilor dupa urmatoarea formula : suma divizorilor = 
+2. Pe baza descompunerii in factori primi se poate determina suma divizorilor dupa urmatoarea formula : SUMA DIVIZORILOR = 
 ((a1 ^ (p1 + 1) - 1) / (a1 - 1)) * ((a2 ^ (p2 + 1) - 1) / (a2 - 1)) * ... * ((ak ^ (pk + 1) - 1) / ak - 1).
 */
