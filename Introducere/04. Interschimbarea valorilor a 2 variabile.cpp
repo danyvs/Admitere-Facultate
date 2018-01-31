@@ -1,5 +1,3 @@
-Interschimbarea valorilor a 2 variabile
-
 void swap(int&a, int& b) {
     int temp = a;
     a = b;
