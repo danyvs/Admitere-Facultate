@@ -2,7 +2,7 @@
 
 // 1. Reuniunea a 2 multimi
 void reunion(int A[], int n, int B[], int m, int C[], int& p) {
-    // C = A u B
+    // C = A ∪ B
     for (int i = 1; i <= n; ++ i)
         C[i] = A[i];
     p = n;
