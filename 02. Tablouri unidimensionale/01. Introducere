@@ -15,3 +15,7 @@
   Afisarea elementelor unui vector
   for (int i = 1; i <= n; ++ i)
     cout << a[i] << " ";
+
+  Generarea unui nou vector in memorie
+  int newVec[NMAX], dim = 0;
+  newVec[++ dim] = x;
