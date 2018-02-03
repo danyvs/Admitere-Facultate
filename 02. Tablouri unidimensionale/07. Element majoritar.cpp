@@ -19,6 +19,4 @@ int majorityElement(int vec[], int n) {
 } 
 
 // Un element este majoritar intr-un vector daca apare de mai mult de n / 2 ori.
-// Algoritmul returneaza elementul majoritar sau -1, daca acesta nu exista.
 // Complexitatea algoritmului: O(n)
-
