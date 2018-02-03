@@ -1,7 +1,9 @@
+/* Numerele mari sunt numere care nu se pot reprezenta pe tipurile de date simple standard. Ele se vor memora cu ajutorul tablourilor 
+unidimensionale. */
+
 // MEMORAREA UNUI NUMAR MARE
 /* Vom reprezenta un număr natural mare ca un vector care să conțină pe prima poziție (A[0]) lungimea numărului mare (numărul de cifre) 
 şi apoi cifrele sale în ordine inversă, începând cu unităţile. */
-
   typedef int bigInt[NMAX];
   
   
