@@ -1,5 +1,3 @@
-// Ciurul lui Eratostene se foloseste pentru a verifica daca un numar este prim sau nu
-
 void sieveOfEratosthenes(bool prime[]) {
     for (int i = 0; i < VMAX; ++ i)
         prime[i] = false;
@@ -12,9 +10,5 @@ void sieveOfEratosthenes(bool prime[]) {
                 prime[j] = false;
 }
 
-/* Observatii:
-1. prime[i] = true, daca i este prim.
-2. prime[i] = false, daca i este compus.
-3. Ciurul lui Eratostene raspunde in O(1) la intrebarea daca un numar este prim sau nu.
-4. Ciurul lui Eratostene se foloseste, in general, atunci cand se doreste sa se afle daca mai multe numere sunt prime sau nu.
-*/
+// 1. Ciurul lui Eratostene se foloseste pentru a verifica daca un numar dintr-un interval este prim sau nu in timp constant
+// 2. prime[i] = true, daca i este prim si prime[i] = false, daca i este compus.
