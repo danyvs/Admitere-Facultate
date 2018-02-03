@@ -15,8 +15,4 @@ void merge2SortedVectors(int A[], int n, int B[], int m, int C[], int& p) {
         C[++ p] = B[j ++];
 }
 
-/* Observatii:
-1. Vectorii initiali trebuie sa fie sortati.
-2. Vectorul obtinut este sortat.
-3. Dimensiunea vectorului sortat este egala cu suma dimensiunilor celor 2 vectori intiali.
-*/
+// Dimensiunea vectorului sortat este egala cu suma dimensiunilor celor 2 vectori intiali.
