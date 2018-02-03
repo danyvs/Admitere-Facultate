@@ -8,6 +8,7 @@ bool naiveSearch(int vec[], int n, int target) {
     return false;
 }
 
+
 // 2. Cautare binara
 // - se poate aplica doar pe un vector sortat
 // - complexitate: O(log2n)
