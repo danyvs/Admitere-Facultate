@@ -1,5 +1,3 @@
-// Descompunerea unui numar in factori primi, in mod eficient: x = a1 ^ p1 + a2 ^ p2 + ... + ak ^ pk
-
 void primeFactors(int x) {
     int d, cnt;
     cnt = 0;
@@ -27,7 +25,9 @@ void primeFactors(int x) {
     }
 }
 
-/* 1. Pe baza descompunerii in factori primi se poate determina numarul divizorilor duma urmatoarea formula: NUMARUL DIVIZORILOR = 
+
+// x = a1 ^ p1 + a2 ^ p2 + ... + ak ^ pk
+/* 1. Pe baza descompunerii in factori primi, se poate determina numarul divizorilor dupa urmatoarea formula: NUMARUL DIVIZORILOR = 
 (p1 + 1) * (p2 + 1) * ... * (pk + 1) */
-/* 2. Pe baza descompunerii in factori primi se poate determina suma divizorilor dupa urmatoarea formula : SUMA DIVIZORILOR = 
+/* 2. Pe baza descompunerii in factori primi, se poate determina suma divizorilor dupa urmatoarea formula : SUMA DIVIZORILOR = 
 ((a1 ^ (p1 + 1) - 1) / (a1 - 1)) * ((a2 ^ (p2 + 1) - 1) / (a2 - 1)) * ... * ((ak ^ (pk + 1) - 1) / ak - 1). */
