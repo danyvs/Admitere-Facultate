@@ -12,6 +12,7 @@ void naiveSort(int vec[], int n) {
         }
 }
 
+
 // 2. Bubble Sort
 // - complexitate: O(n ^ 2)
 void bubbleSort(int vec[], int n) {
