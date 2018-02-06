@@ -1,0 +1,5 @@
+  O definitie este recursiva daca in cadrul ei apare termenul care se defineste.
+  
+  In informatica, o definitie recursiva este corecta, daca indeplineste 2 conditii:
+      1. exista cel putin 1 caz elementar cu rezolvare imediata
+      2. cazurile recursive tind catre cazurile elementare
