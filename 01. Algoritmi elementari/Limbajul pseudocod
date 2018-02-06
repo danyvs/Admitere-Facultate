@@ -1,0 +1,35 @@
+- datele nu se declara
+- citirea: citeste var1, var2 ...
+- afisarea: scrie expresie
+- atribuirea: var <- expresie
+- operatori:
+    - aritmetici: +, -, *, [a / b], a / b, a % b
+    - relationali: <, <=, >, >=, =, !=
+    - logici: not, and, or
+    
+  -daca Conditie atunci
+  |                 instructiune
+  |              altfel
+  |                 instructiune
+  |-■  
+  
+  -daca Conditie atunci
+  |                  instructiune
+  |-■  
+  
+  - cat timp Conditie executa
+  |                       instructiune
+  |-■
+  
+  - pentru i <- a, b executa
+  |                     instructiune
+  |-■
+  
+  - pentru i <- a, b, -1 executa
+  |                         instructiune
+  |-■
+  
+  - repeta
+  |     instructiune
+  |- pana cand Conditie
+  
