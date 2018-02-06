@@ -1,6 +1,3 @@
-// Subsecventa de suma maxima
-// - complexitate: O(n)
-
 void maxSum(int vec[], int n, int& smax, int& lo, int& hi) {
     smax = 0;
     int s = vec[1], idx = 1;
@@ -19,7 +16,6 @@ void maxSum(int vec[], int n, int& smax, int& lo, int& hi) {
     }
 }
 
-/* Observatii:
-1. Functia returneaza prin intermediul parametrului smax suma maxima.
-2. Functia returneaza prin intermediul parametrilor lo si hi pozitia de inceput si de sfarsit a subsecventei de suma maxima.
-*/
+// - complexitate: O(n)
+// Functia returneaza prin intermediul parametrului smax suma maxima.
+// Functia returneaza prin intermediul parametrilor lo si hi pozitia de inceput si de sfarsit a subsecventei de suma maxima.
