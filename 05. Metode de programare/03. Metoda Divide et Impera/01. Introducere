@@ -1,0 +1,4 @@
+  Metoda Divide et Impera se aplica problemelor care permit impartirea problemei in 2 sau mai multe subprobleme de acelasi tip pana se
+ajunge la o o problema cu rezolvare imediata (aceasta este etapa Divide).
+  Solutia problemei initiale este obtinuta pe baza solutiilor subproblemelor (aceasta este etapa Impera).
+  Este o metoda recursiva.
