@@ -12,4 +12,3 @@ void bkt(int k, int X[], int n) {
 1. Numar solutii: Cn0 + Cn1 + ... Cnn = 2 ^ n
 2. X[0] trebuie initilizat cu 0 in main.
 */
-
