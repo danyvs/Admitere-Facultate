@@ -1,26 +1,3 @@
-// 3. Aranjamente
-// - numar solutii = n! / (n - m)!
-void bkt(int k, int X[], int n, int m, bool seen[]) {
-    for (int i = 1; i <= n; ++ i)
-        if (!seen[i]) {
-            X[k] = i;
-            seen[i] = true;
-            if (k == m) {
-                // prelucrare solutie
-            }
-            else
-                bkt(k + 1, X, n, m, seen);
-            seen[i] = false;
-        }
-}
-
-/* Observatii:
-1. Vectorul seen trebuie initializat cu false.
-2. Apelul functiei in main este de forma bkt(1, X, n, m, seen).
-3. Ordinea elementelor are importanta.
-*/
-
-
 // 4. Combinari
 // - numar solutii = n! / (m! * (n - m)!)
 void bkt(int k, int X[], int n, int m) {
