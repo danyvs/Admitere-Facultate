@@ -12,6 +12,7 @@ void bkt(int k, int X[], int n, int m, bool seen[]) {
         }
 }
 
+
 /* 1. Numar solutii: Anm = n! / (n - m)!
       Pentru n = 3 si m = 2 => aranjamentele, IN ORDINE LEXICOGRAFICA, sunt : 1 2
                                                                               1 3
