@@ -13,15 +13,14 @@ void bkt(int k, int X[], int n, int m, bool seen[]) {
 }
 
 
-/* 1. Numar solutii: Anm = n! / (n - m)!
-      Pentru n = 3 si m = 2 => aranjamentele, IN ORDINE LEXICOGRAFICA, sunt : 1 2
-                                                                              1 3
-                                                                              2 1
-                                                                              2 3
-                                                                              3 1
-                                                                              3 2
+/* 
+1. Numar solutii: Anm = n! / (n - m)!
+   Pentru n = 3 si m = 2 => aranjamentele, IN ORDINE LEXICOGRAFICA, sunt : 1 2
+                                                                           1 3
+                                                                           2 1
+                                                                           2 3
+                                                                           3 1
+                                                                           3 2
 2. Ordinea elementelor ARE importanta.
 3. seen[i] = true, daca valoarea i este folosita in aranjament pana la pasul curent; seen[i] = false, in caz contrar 
 */
-
-
