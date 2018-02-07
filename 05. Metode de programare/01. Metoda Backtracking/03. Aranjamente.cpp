@@ -1,5 +1,3 @@
-// 3. Aranjamente
-// 
 void bkt(int k, int X[], int n, int m, bool seen[]) {
     for (int i = 1; i <= n; ++ i)
         if (!seen[i]) {
