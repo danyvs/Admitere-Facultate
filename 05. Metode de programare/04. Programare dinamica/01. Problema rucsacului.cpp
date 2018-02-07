@@ -3,12 +3,6 @@ struct object {
     int c; // castig
 };
 
-void read(object vec[NMAX], int& n, int& G) {
-    cin >> n >> G;
-    for (int i = 1; i <= n; ++ i)
-        cin >> vec[i].g >> vec[i].c;
-}
-
 void swapObject(object& a, object& b) {
     object temp = a;
     a = b;
