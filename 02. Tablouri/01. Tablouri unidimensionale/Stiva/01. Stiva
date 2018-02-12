@@ -1,0 +1,30 @@
+  Stiva este o structura de date abstracta pentru care atat operatia de inserare a unui element in structura, cat si operatia de extragere 
+a unui element se realizeaza la un singur capat, denumit VARFUL stivei.
+  Acest mod de functionare face ca ultimul element inserat in stiva sa fie primul extras. O stiva functioneaza dupa principiul LIFO (Last
+In First Out).
+
+  Operatiile care pot fi executate cu o stiva sunt:
+    1) crearea unei stive vide
+        void createStack(int stck[], int top) {
+            top = 0;
+        }
+    
+    2) inserarea unui element in stiva (push)
+        void pushStack(int stck[], int top, int x) {
+            stck[++ top] = x;
+        }
+        
+    3) extragerea unui element din stiva (pop)
+        void popStack(int stck[], int top) {
+            -- top;
+        }
+    
+    4) accesarea elementului de la varf (top)
+        int topStack(int stck[], int top) {
+            return stck[top];
+        }
+    
+    5) verificare daca stiva este vida
+        bool isStackEmpty(int stck[], int top) {
+            return (top == 0);
+        }
