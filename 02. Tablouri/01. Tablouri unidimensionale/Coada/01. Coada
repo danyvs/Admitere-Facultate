@@ -1,0 +1,31 @@
+  COADA este o structura de date abstracta pentru care operatia de inserare a unui element se realizeaza la un capat, in timp ce operatia
+de extragere a unui element se realizeaza la celalalt capat.
+  Singurul element din coada la care avem acces direct este cel de inceput.
+  Principiul de functionare al unei cozi este FIFO (First In First Out).
+  
+  Operatii specifice:
+    1) crearea unei cozi vide
+        void createQueue(int q[], int front, int dim) {
+            dim = -1;
+            front = 0;
+        }
+    
+    2) inserarea unui element in coada (push)
+        void pushQueue(int q[], int front, int dim, int x) {
+            q[++ dim] = x;
+        }
+    
+    3) extragerea unui element din coada (pop)
+        void popQueue(int q[], int front, int dim) {
+            ++ front;
+        }
+    
+    4) accesarea primului element (front)
+        int frontQueue(int q[], int front, int dim) {
+            return q[front];
+        }
+        
+    5) test coada vida
+        bool isQueueEmpty(int q[], int front, int dim) {
+            return (front > dim);
+        }
