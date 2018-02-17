@@ -1,0 +1,67 @@
+  Se numeste ARBORE BINAR un arbore cu radacina care are proprietatea ca fiecare nod are cel mult 2 descendenti dirtecti (succesori).
+  Cei 2 succesori ai unui nod (daca exista) se numesc succesor stang (subarbore stang) si succesor drept (subarbore drept).
+  
+  Se numeste ARBORE BINAR STRICT un arbore care are proprietatea ca fiecare nod, cu exceptia nodurilor terminale, are exact 2 descendenti.
+  Un arbore binar strict cu n noduri terminale are in total 2 * n - 1 noduri.
+  Un arbore binar strict are un numar impar de noduri.
+  
+  Se numeste ARBORE BINAR ECHILIBRAT este un arbore binar care are proprietatea ca diferenta dintre intaltimile celor 2 subarbori ai
+oricarui nod este cel mult 1.
+  
+  Se numeste ARBORE BINAR COMPLET un arbore binar strict care are toate nodurile terminale pe acelasi nivel.
+  Un arbore binar complet cu n noduri terminale are 2 * n - 1 noduri.
+  
+  Implementarea arborilor binari:
+    1) static - cu vector de tati
+              - cu vector stanga-dreapta
+    
+    2) dinamic - folosind pointeri
+        struct node {
+            int info;
+            node *left, * right;
+        }
+        
+        node* create() {
+            int temp;
+            cin >> temp;
+            if (x == 0)
+                return NULL;
+            else {
+                node* p = new node;
+                p->left = create();
+                p->right = create();
+                return p;
+            }
+        }
+        
+  Parcurgerea arborilor binari:
+      1) in latime (ca la grafuri neorientate)
+      2) in adancime
+          - in preordine (RSD)
+          - in inordine (SRD)
+          - in postordine (SDR)
+          
+          void RSD(node* r) {
+              if (r) {
+                  // prelucrare r->info
+                  RSD(r->left);
+                  RSD(r->right);
+              }
+          }
+          
+          void SRD(node* r) {
+              if (r) {
+                  SRD(r->left);
+                  // prelucrare r->info
+                  SRD(r->right);
+              }
+          }
+          
+          void SDR(node* r) {
+              if (r) {
+                  SDR(r->left);
+                  SDR(r->right);
+                  // prelucrare r->info    
+              }
+          }
+              
