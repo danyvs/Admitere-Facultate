@@ -1,0 +1,29 @@
+  Nodurile unui arbore pot fi organizate pe nivele. Pe primul nivel se afla un singur nod numit RADACINA arborelui. Pe al doilea nivel se
+afla nodurile cu care acesta este adiacent si asa mai departe.
+  Orice nod al arborelui poate fi considerat radacina.
+  Inaltimea arborelui este lungimea maxima a unui lant care leaga radacina de una dintre frunze.
+  
+  Reprezentarea arborilor cu radacina:
+    1) cu vector "de tati"
+        par[i] = 0, daca i este radacina
+                 tatal nodului i
+    
+    Parcurgerile in latime si in adancime a unui arbore cu radacina sunt asemanatoare cu cele de grafuri.
+    Prin parcurgerea in latime, informatia din noduri este prelucrata pe nivele.
+    
+    BFS
+    void bfs(par[], int n, int root) {
+        int q[NMAX], idx = 0, dim = 0; // coada
+        q[++ dim] = root;
+        idx = 1;
+        // prelucrare radacina
+        while (idx <= dim) {
+          int currNode = q[idx ++];
+          for (int i = 1; i <= n; ++ i) 
+            if (par[i] == currNode) {
+              q[++ dim] = i;
+              // prelucrare i
+            }
+          }
+        }
+    }
