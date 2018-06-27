@@ -11,5 +11,5 @@ bool prime(int x) {
     return true;
 }
 
-/* Daca este necesara verificarea proprietatii de numar prim pentru un numar mare de numere, este recomandat sa se foloseasca Ciurul lui
-Eratostene */
+/* Daca este necesara verificarea proprietatii de numar prim pentru un numar mare de numere, este recomandat sa se foloseasca 
+Ciurul lui Eratostene */
